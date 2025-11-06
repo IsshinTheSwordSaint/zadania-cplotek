@@ -1,0 +1,6 @@
+Pytania:
+1. Int, przyjmuje 2 parametry
+2. LiczbaOperacji posiada prywatny setter by zachowac zasady hermetyzacji danych
+3. 3
+4. 0
+5. nazwazmiennej.ResetujLicznik(), LiczbaOperacji bedzie miala wartosc 0
