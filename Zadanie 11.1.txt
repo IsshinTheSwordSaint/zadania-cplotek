@@ -1,0 +1,15 @@
+1.Po dodaniu nowych loggerow nalezy dodac kolejne instrukcje if
+2.Kod niestety jest trudny w utrzymaniu, bo przy jakiejś zmianie będzie trzeba wprowadzić wiele zmian i korekcji
+3.Będzie można wywołać jedną motodę, która nie bedzie musiala znac konkretnego typu loggera
+4.
+Logger 
+{
+	void Loguj(wiadomosc)
+}
+ 
+klasa pochodna od Logger{
+	public void Loguj(wiadomosc)
+	{
+	console.writeLine("$[element np. plik] {wiadomosc});
+	}
+}
